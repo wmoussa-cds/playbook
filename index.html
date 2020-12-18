@@ -19,7 +19,7 @@
    <div class="outer_container">
     <div class="inner_container">
 
-      <a href="#introduction"><h3>Digital Services Playbook</h3></a>
+      <a href="#introduction"><h3>CDS Technical Playbook</h3></a>
       <ul class="nav">
         {% for play in site.plays %}
           <li class="play_square"><a href="#play{{ play.play_number }}" title="View Play {{ play.play_number }}: {{ play.title }}">{{ play.play_number }}</a></li>
@@ -35,7 +35,7 @@
 <div id="introduction">
   <div class="outer_container">
     <div class="inner_container">
-      <a id="usds_logo" href="https://www.usds.gov" target="_blank" title="Link to the United States Digital Service"><img src='{{site.baseurl}}/assets/images/usds-logo-seal.png' alt="Logo of the United States Digital Service"></a>
+      <a id="usds_logo" href="https://digital.canada.ca" target="_blank" title="Link to the Canadian Digital Service"><img src='{{site.baseurl}}/assets/images/cds-snc.png' alt="Logo of the Canadian Digital Service"></a>
       {% capture introduction %}{% include introduction.md %}{% endcapture %}
       {{ introduction | markdownify }}
       <div class="button">
@@ -52,7 +52,7 @@
   <div class="outer_container">
     <div class="inner_container">
       <a class="anchor_offset" id="plays_index_anchor"></a>
-      <h2>Digital Service Plays</h2>
+      <h2>Technical Plays</h2>
       <div class="columns">
         <ol>
         {% for play in site.plays %}

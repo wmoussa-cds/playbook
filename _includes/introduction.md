@@ -1,5 +1,11 @@
-# Digital Services Playbook
+# Technical Playbook
 
-The American people expect to interact with government through digital channels such as websites, email, and mobile applications. By building digital services that meet their needs, we can make the delivery of our policy and programs more effective.   
+This playbook suggests what needs to be done to build effective digital service on a technical level.  It is opinionated but backed by years of experience and drawn from best practices from the private sector and government. It breaks the software development discipline into 14 actionable plays. We do not enforce the plays to any team, but strongly recommend them. At CDS, we believe this playbook will provide the following outcomes:
 
-Today, too many of our digital services projects do not work well, are delivered late, or are over budget. To increase the success rate of these projects, the U.S. Government needs a new approach. We created a playbook of 13 key “plays” drawn from successful practices from the private sector and government that, if followed together, will help government build effective digital services.
+- Set technical standard baseline across our community and product teams 
+- Increase collaboration and re-use
+- Build speed and consistency
+- Streamline onboarding new developers, departments or partners
+- Consolidate industry best practices and adapt them to our mission
+- Realize economies of scale
+- Mitigate risk and increase operational efficiency

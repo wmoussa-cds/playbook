@@ -5,19 +5,21 @@
 $atlantic_blue:         #323A45; // gray-dark
 $pacific_blue:          #046B99; // primary-alt-darkest
 $miami_vice_blue:       $pacific_blue; // original
-$white:                 #fff;
+$white:                 #ffffff;
+$cds-yellow:            #ffcc33;
 $black:                 #323A45; // gray-dark
-$usds-navy:             #103c68;
+$usds-navy:             #000000;
+$cds-black:             #000000;
 $usds-navy-dark:        #122d44;
 $usds-navy-light:       #577795;
-$usds-blue-medium:      #064e96;
+$usds-blue-medium:      #333333;
 $usds-blue-bright-dark: #0071bc;
 $usds-gray:             #5d5d5d;
 $usds-gray-dark:        #3f3f3f;
 
 // Fonts
 $serif:               'Merriweather', Georgia, serif;
-$sans-serif:          'Source Sans Pro', sans-serif;
+$sans-serif:          'HKGrotesk', sans-serif;
 
 // Mobile Breakpoints
 $mobile: new-breakpoint(min-width 0px max-width 640px 4);
@@ -25,8 +27,8 @@ $slimmer: new-breakpoint(min-width 641px max-width 980px 12);
 
 @media screen {
   body {
-    background: $white;
-    font-family: $serif;
+    background: $cds-yellow;
+    font-family: $sans-serif;
     margin: 0;
     line-height: 1.5em;
   }
@@ -75,14 +77,14 @@ $slimmer: new-breakpoint(min-width 641px max-width 980px 12);
   }
 
   h2 {
-    font-family: $serif;
+    font-family: $sans-serif;
     font-size: 30px;
     line-height: 1.375em;
     font-weight: 300;
   }
 
   h2.display {
-    font-family: $serif;
+    font-family: $sans-serif;
     font-size: 54px;
     line-height: 1.3em;
     font-weight: 300;
@@ -94,13 +96,13 @@ $slimmer: new-breakpoint(min-width 641px max-width 980px 12);
   }
 
   h3 {
-    font-family: $serif;
+    font-family: $sans-serif;
     font-size: 20px;
     font-weight: 700;
   }
 
   h4 {
-    font-family: $serif;
+    font-family: $sans-serif;
     font-size: 17px;
     font-weight: 700;
     line-height: 1.5em;
@@ -188,7 +190,7 @@ $slimmer: new-breakpoint(min-width 641px max-width 980px 12);
 
 
   #introduction {
-    background: $usds-navy;
+    background: $cds-black;
     color: $white;
     padding-bottom: 60px;
 
@@ -223,12 +225,19 @@ $slimmer: new-breakpoint(min-width 641px max-width 980px 12);
 
     p {
       max-width: 700px;
-      font-family: $serif;
+      font-family: $sans-serif;
       font-size: 20px;
       font-weight: 300;
       line-height: 2.0em;
       margin-top: 40px;
+      color: $white;
+    }
 
+    li {
+      max-width: 700px;
+      font-family: $sans-serif;
+      font-size: 20px;
+      font-weight: 300;
       color: $white;
     }
 
@@ -297,7 +306,7 @@ $slimmer: new-breakpoint(min-width 641px max-width 980px 12);
         width: 24px;
         line-height: 22px;
         text-align: center;
-        font-family: $serif;
+        font-family: $sans-serif;
         font-weight: lighter;
         color: $white;
         border: 1px solid $usds-blue-bright-dark;
@@ -545,7 +554,7 @@ $slimmer: new-breakpoint(min-width 641px max-width 980px 12);
 @media print {
   body {
     background: white;
-    font-family: $serif;
+    font-family: $sans-serif;
     font-weight: lighter;
     line-height: 1.5em;
     font-size: 12px;
