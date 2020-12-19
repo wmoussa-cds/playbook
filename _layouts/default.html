@@ -40,7 +40,7 @@
             ><h3>{{ site.data.translations[page.lang].site_name }}</h3></a
           >
           <ul class="nav">
-            {% for play in site.plays %}
+            {% for play in site.plays %} {% if play.path contains page.lang %}
             <li class="play_square">
               <a
                 href="#play{{ play._id }}"
@@ -49,7 +49,14 @@
               >
               <span>{{ play._id }}</span>
             </li>
-            {% endfor %}
+            {% endif %} {% endfor %}
+            <li>
+              {% if page.lang == 'fr' %}
+              <a href="{{site.baseurl}}/">English</a>
+              {% else %}
+              <a href="{{site.baseurl}}/fr">Français</a>
+              {% endif %}
+            </li>
           </ul>
           <div id="menu_icon">
             <a
@@ -64,6 +71,14 @@
     <div id="introduction">
       <div class="outer_container">
         <div class="inner_container">
+          <div>
+            {% if page.lang == 'fr' %}
+            <a href="{{site.baseurl}}/">English</a>
+            {% else %}
+            <a href="{{site.baseurl}}/fr">Français</a>
+            {% endif %}
+          </div>
+
           <!-- fix the logo for CDS -->
           <a
             id="usds_logo"
@@ -101,32 +116,34 @@
 
           <div class="columns">
             <ol>
-              {% for play in site.plays %}
+              {% for play in site.plays %} {% if play.path contains page.lang %}
               <li>
-                <a href="#play{{ play.id }}" title="View Play {{ play.id }}"
+                <a href="#play{{ play._id }}" title="View Play {{ play._id }}"
                   >{{ play.title }}</a
                 >
               </li>
-              {% endfor %}
+              {% endif %} {% endfor %}
             </ol>
           </div>
 
           <div class="button">
-            <a href="#play1" title="View the In Detail">In detail</a>
+            <a href="#play1"
+              >{{ site.data.translations[page.lang].index_button }}</a
+            >
           </div>
         </div>
       </div>
     </div>
 
     <div id="plays" class="outer_container">
-      {% for play in site.plays %}
+      {% for play in site.plays %} {% if play.path contains page.lang %}
       <div class="inner_container">
-        <a class="anchor_offset" id="play{{ play.id }}"></a>
-        <h6>PLAY {{ play.id }}</h6>
+        <a class="anchor_offset" id="play{{ play._id }}"></a>
+        <h6>PLAY {{ play._id }}</h6>
         <h2 class="display">{{ play.title }}</h2>
         {{ play.output }}
       </div>
-      {% endfor %}
+      {% endif %} {% endfor %}
     </div>
 
     <script src="{{site.baseurl}}/assets/js/jquery-1.11.1.min.js"></script>

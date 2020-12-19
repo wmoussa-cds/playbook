@@ -7,6 +7,6 @@ lang: fr
 
 # SNC Playbook
 
-The American people expect to interact with government through digital channels such as websites, email, and mobile applications. By building digital services that meet their needs, we can make the delivery of our policy and programs more effective.
+Le peuple américain s'attend à interagir avec le gouvernement par le biais de canaux numériques tels que les sites web, le courrier électronique et les applications mobiles. En créant des services numériques qui répondent à leurs besoins, nous pouvons rendre la mise en œuvre de notre politique et de nos programmes plus efficace.
 
-Today, too many of our digital services projects do not work well, are delivered late, or are over budget. To increase the success rate of these projects, the U.S. Government needs a new approach. We created a playbook of 13 key “plays” drawn from successful practices from the private sector and government that, if followed together, will help government build effective digital services.
+Aujourd'hui, un trop grand nombre de nos projets de services numériques ne fonctionnent pas bien, sont livrés en retard ou dépassent le budget. Pour augmenter le taux de réussite de ces projets, le gouvernement américain a besoin d'une nouvelle approche. Nous avons créé un guide de 13 "pièces" clés tirées de pratiques réussies du secteur privé et du gouvernement qui, si elles sont suivies ensemble, aideront le gouvernement à mettre en place des services numériques efficaces.

@@ -4,6 +4,7 @@ en:
   intro_plays_button: "See the plays"
   intro_github_button: "Help improve this content"
   index_heading: "Digital Service Plays"
+  index_button: "In detail"
   cds-snc: "Canadian Digital Service"
 fr:
   site_name: "SNC Playbook"
@@ -11,4 +12,5 @@ fr:
   intro_plays_button: "Voir les plays"
   intro_github_button: "Aidez à améliorer ce contenu"
   index_heading: "Plays numeriques"
+  index_button: "En détail"
   cds-snc: "Service numérique canadien"
