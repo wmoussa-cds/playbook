@@ -43,20 +43,19 @@
           >
           <ul class="nav">
             {% for play in site.plays %} {% if play.path contains page.lang %}
-            <li class="play_square">
+            <li>
               <a
                 href="#play{{ play._id }}"
                 title="View Play {{ play._id }}: {{ play.title }}"
                 >{{ play._id }}</a
               >
-              <span>{{ play._id }}</span>
             </li>
             {% endif %} {% endfor %}
             <li>
               {% if page.lang == 'fr' %}
-              <a href="{{site.baseurl}}/">English</a>
+              <a href="{{site.baseurl}}/">EN</a>
               {% else %}
-              <a href="{{site.baseurl}}/fr">Français</a>
+              <a href="{{site.baseurl}}/fr">FR</a>
               {% endif %}
             </li>
           </ul>

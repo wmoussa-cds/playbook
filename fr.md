@@ -5,7 +5,7 @@ permalink: /fr/
 lang: fr
 ---
 
-# SNC Playbook
+# Manuel Technique SNC
 
 Le peuple américain s'attend à interagir avec le gouvernement par le biais de canaux numériques tels que les sites web, le courrier électronique et les applications mobiles. En créant des services numériques qui répondent à leurs besoins, nous pouvons rendre la mise en œuvre de notre politique et de nos programmes plus efficace.
 
