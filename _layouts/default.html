@@ -12,6 +12,8 @@
       rel="stylesheet"
       type="text/css"
     />
+    <link href="/lib-cds/gcweb-dist/GCWeb/assets/favicon.ico" rel="icon" type="image/x-icon">
+
     <link
       rel="shortcut icon"
       href="{{site.baseurl}}/assets/images/favicon.ico"
@@ -79,7 +81,7 @@
             {% endif %}
           </div>
 
-          <a id="usds_logo" href="https://digital.canada.ca" target="_blank" title="Link to the Canadian Digital Service"><img src='{{site.baseurl}}/assets/images/cds-snc.png' alt="Logo of the Canadian Digital Service"></a>
+          <a id="cds_logo" href="https://digital.canada.ca" target="_blank" title="Link to the Canadian Digital Service"><img src='{{site.baseurl}}/assets/images/cds-snc.png' alt="Logo of the Canadian Digital Service"></a>
           {{ content }}
 
           <div class="button">
@@ -91,7 +93,7 @@
           </div>
           <div class="button">
             <a
-              href="https://github.com/whitehouse/playbook#readme"
+              href="#"
               title="{{ site.data.translations[page.lang].intro_plays_button }}"
               >{{ site.data.translations[page.lang].intro_github_button }}</a
             >
@@ -141,10 +143,5 @@
     <script src="{{site.baseurl}}/assets/js/jquery-1.11.1.min.js"></script>
     <script src="{{site.baseurl}}/assets/js/scrollspy.js"></script>
     <script src="{{site.baseurl}}/assets/js/site.js"></script>
-    <script
-      id="_fed_an_js_tag"
-      type="text/javascript"
-      src="{{site.baseurl}}/assets/js/federated-analytics.all.min.js?agency=GSA&sub-agency=OGP"
-    ></script>
   </body>
 </html>
