@@ -15,3 +15,5 @@ This playbook suggests what needs to be done to build effective digital service 
 - Consolidate industry best practices and adapt them to our mission
 - Realize economies of scale
 - Mitigate risk and increase operational efficiency
+
+We hope to refine it as we practice the plays everyday in our craft.
